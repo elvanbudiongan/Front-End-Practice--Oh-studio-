@@ -1,0 +1,322 @@
+body{
+	font-family: sans-serif;
+	font-size: 12;
+}
+
+.framer1{
+	min-height: 100vh;
+	width: auto;
+	display: flex;
+	flex-flow: column nowrap;
+	background-color: #fff;
+	align-items: center;
+	gap: 0px;
+	justify-content: flex-start;
+	overflow: hidden;
+	padding: 0;
+	position: relative;
+	height: min-content;
+  
+}
+
+.framer-space{
+  flex: none;
+  height: 110px;
+  position: relative;
+  width: 100%;
+}
+
+.framer2{
+	flex: none;
+	left: 50%;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 9;
+	transform: translate(-50%);
+  height: 110px;
+	
+}
+
+.framer3{
+	background-color: #ffffff
+	width: 100%;
+	opacity: 1;
+	display: flex;
+	flex-flow: row;
+	gap: 0px;
+	height: min-content;
+	overflow: hidden;
+	padding: 0px;
+	position: relative;
+	place-content: center;
+  align-items: center;
+}
+
+.framer4{
+	opacity: 1;
+	gap: 60px;
+	order: 0;
+	padding: 20px;
+	place-content: center;
+	align-items: center;
+	display: flex;
+	flex: 1 0 0px;
+	flex-flow: row;
+	height: min-content;
+	max-width: 1400px;
+	overflow: visible;
+	position: relative;
+	width: 1px;
+  padding: 30px 40px;
+}
+
+.framer5{
+	backdrop-filter: blur(16px);
+	background-color: #e8e5e480;
+	border-radius: 100px; 
+	opacity: 1;
+	place-content: center flex-end;
+	align-items: center;
+	display: flex;
+	flex-flow: row;
+	gap: 4px;
+	height: 40px;
+	overflow: hidden;
+	padding: 4px;
+	position: relative;
+  width: 300px;
+	will-change: transform;
+}
+
+.framer6, .framer7, .framer8{
+  opacity: 1;
+  flex: 1 0 0px;
+  height: auto;
+  position: relative;
+  width: 1px;
+  z-index: 1;
+}
+
+.home-frame{
+	background-color: white;
+  border-radius: 100px;
+	opacity: 1;
+	place-content: center;
+	align-items: center;
+	display: flex;
+	flex-flow: row;
+	gap: 10px;
+	overflow: visible;
+  padding: 1px;
+	text-decoration: none;
+	position: relative;
+  height: 36px;
+}
+
+.homeframe-inside{
+	outline: none;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	flex-shrink: 0;
+	transform: none;
+	opacity: 1;
+	flex: 0 0 auto;
+	height: auto;
+	position: relative;
+	white-space: pre;
+	width: auto;
+}
+
+.home-text{
+	color: black;
+	font-family: "Neue Montreal Regular", serif;
+	font-size: 14px;
+	text-decoration: none;
+}
+
+.profile-frame, .contact-frame{
+	background-color: none;
+	opacity: 1;
+	place-content: center;
+	align-items: center;
+	display: flex;
+	flex-flow: row;
+	gap: 10px;
+	height: 32px;
+	overflow: visible;
+	padding: 20px 40px;
+	position: relative;
+	text-decoration: none;
+}
+.profileframe-inside, .contactframe-inside{
+  outline: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  transform: none;
+  opacity: 1;
+  flex: 0 0 auto;
+  height: auto;
+  position: relative;
+  white-space: pre;
+  width: auto;
+}
+
+.profile-text, .contact-text{
+	color: black;
+	font-family: "Neue Montreal Regular", serif;
+	font-size: 14px;
+	text-decoration: none;
+}
+
+.body-text{
+	display: flex;
+	flex: none;
+	align-items: center;
+	flex-flow: column nowrap;
+	width: 100%;
+	height: min-content;
+	justify-content: flex-start;
+	position: relative;
+  width: 100%;
+  gap: 0px;
+  overflow: hidden;
+}
+
+.body-content{
+	display: flex;
+  flex: none;
+	align-items: center;
+	flex-flow: column nowrap;
+	gap: 40px;
+	max-width: 1400px;
+	overflow: visible;
+	padding: 40px;
+	width: 100%;
+	position: relative;
+}
+
+.framer-text{
+  outline: none;
+	display: flex;
+  flex-direction: column;
+	justify-content: flex-start;
+	opacity: 1;
+  flex-shrink: 0;
+	max-width: 600px;
+  flex: none;
+	height: auto;
+	position: relative;
+	width: 100%;
+  word-break: break-word;
+  word-wrap: break-word;
+  text-align: center;
+  font-size: 28px;
+}
+
+.below-h1{
+  opacity: 1;
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  height: min-content;
+}
+
+.branding, .product, .design{
+  background-color: #e8e5e480;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  flex: none;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 10px;
+  height: 20px;
+  justify-content: center;
+  overflow: hidden;
+  padding: 8px 12px;
+  position: relative;
+  width: auto;
+  -ms-text-size-adjust;
+  will-change: var(--framer-will-change-override, transform);
+}
+
+.content-row1, .content-row2{
+  display: flex;
+  padding: 50px, 50px 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.inside-content1, .inside-content2{
+  display: flex;
+  flex-direction: row;
+  flex: none;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: nowrap;
+  height: 500px;
+  max-width: 1250px;
+  overflow: hidden;
+  padding: 40px 50px 0;
+  position: relative;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.text-bottom{
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  padding: 40px;
+  justify-content: center;
+  align-items: center;
+  gap: 0px;
+  height: 30vh;
+}
+
+
+.h1-black, .h1-grey{
+  padding: 0px;
+  height: 44px;
+  font-size: 20px;
+}
+
+.h1-grey{
+  color: 
+  #7f7f7f;
+}
+
+.fotter{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 95%;
+}
+
+.right, .left{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+}
+
+.left > a{
+  text-decoration: none;
+  color: black;
+}
+.asterisk{
+  width: 30px;
+  height: auto;
+}
+
+.img-content{
+  width: 10 px;
+  height: auto;
+}
+
+
